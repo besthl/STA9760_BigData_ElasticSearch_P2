@@ -21,7 +21,9 @@ def insert(docs, es):
         #print('\n')
 
 if __name__ == "__main__":
-    app_key = 'gOC80zDpmRj2bjooeYI5HMKVO'    
+    app_key = environ.get("APP_KEY")
+    if not app_key:
+        app_key = 'gOC80zDpmRj2bjooeYI5HMKVO'   
 
     es = create_and_update_index('parking-violation-index', 'vehicle')
     #print page_size and num_pages
