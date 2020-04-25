@@ -12,6 +12,7 @@ ElasticSearch: http://localhost:9200 Kibana: http://localhost:5601
 
 Running python:
 
+export APP_KEY={MY_TOKEN}
 
 docker-compose run pyth python parking.py --page_size=1000 --num_pages=4
 
