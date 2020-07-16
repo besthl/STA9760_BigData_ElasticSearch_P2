@@ -1,4 +1,4 @@
-# STA9760_bigdata Part 2
+# STA9760 Project 2 Part 2---Insert Data into ElasticSearch
 
 Start:
 
