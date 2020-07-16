@@ -1,6 +1,8 @@
-# STA9760 Project 2 Part 2---Insert Data into ElasticSearch
+# STA9760 Project 2 Part 2---Loading Data into ElasticSearch
+In this part, we want leverage docker-compose to bring up a service that encapsulates the bigdata1 container and an elasticsearch container and ensures that they are able to interact. 
+In order to interact with elasticsearch in python, PyPI’s elasticsearch module ought to be used. Additionally, all elasticsearch related logic should be wrapped into an internal module that lives within the src folder in this project.
 
-Start:
+## Start:
 
 docker-compose up -d
 
